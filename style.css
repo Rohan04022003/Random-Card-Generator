@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+#main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+}
+#card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 20rem;
+  height: 22rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+#menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#menu img {
+  width: 2.2rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+#menu img:hover {
+  background-color: #d0d0d0;
+  transition: 0.3s linear;
+}
+
+#person {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+  padding: 0.2rem;
+  border-width: 1rem;
+  border: 5px solid rgba(150, 150, 150, 0.587);
+}
+
+#info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  color: #3b3b3b;
+}
+
+#info h2,
+#info p {
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+#info p {
+  color: rgba(110, 110, 110, 0.893);
+}
+
+#location {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#gender,
+#age {
+  padding: 0.7rem;
+  width: 100%;
+  text-align: center;
+}
+
+#gender h4,
+#age h4,
+#moreInfo > p {
+  color: rgb(48, 48, 48);
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+#gender p,
+#age p {
+  font-size: 0.8rem;
+  padding-top: 0.4rem;
+  font-weight: 600;
+  color: rgba(110, 110, 110, 0.893);
+}
+
+#moreInfo span {
+  font-size: 0.8rem;
+  color: rgba(110, 110, 110, 0.893);
+}
+
+#moreInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 20rem;
+  height: 8rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+
+@media (max-width: 667px) {
+  #main {
+    justify-content: flex-start;
+    padding-top: 5rem;
+  }
+}
+

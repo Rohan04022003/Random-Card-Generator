@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Person chard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="card">
+        <div id="menu">
+          <img src="./menu.svg" alt="" />
+          <img src="./reload.svg" alt="" / onclick="reloadPage()">
+        </div>
+        <div id="personImg"></div>
+
+        <div id="info">
+          <h2 id="name"></h2>
+          <p id="profession"></p>
+        </div>
+
+        <div id="location">
+          <div id="gender">
+            <p>Gender</p>
+            <h4></h4>
+          </div>
+          <div id="age">
+            <p>Age</p>
+            <h4></h4>
+          </div>
+        </div>
+      </div>
+
+      <div id="moreInfo">
+        <p>Email: <span id="personEmail"></span></p>
+        <p>Phone: <span id="phone"></span></p>
+        <p>Country: <span id="country"></span></p>
+        <p>PostCode: <span id="postcode"></span></p>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
